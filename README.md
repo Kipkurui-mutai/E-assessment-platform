@@ -14,6 +14,6 @@ This is an e-assessment platform whereby lecturers or teachers can post their ex
 1. Your Machine must have a webcam.
 
 
-#Log In:
+# Log In:
 
 The Admin is to log in then assign ID to students, the students are to set a new password and register their faces.
