@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsys.controllers.application.SamController">
+    
+   <children>
+      <ImageView fx:id="profile" fitHeight="305.0" fitWidth="345.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS" />
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Button fx:id="startCamBtn" mnemonicParsing="false" onAction="#startCamera" text="start camera" />
+                  <Button mnemonicParsing="false" onAction="#saveFace" text="save face" />
+                  <Button fx:id="stopCamBtn" mnemonicParsing="false" onAction="#stopRec" text="stop record" />
+                  <Button fx:id="recogniseBtn" mnemonicParsing="false" onAction="#faceRecognise" text="recognise" />
+                  <Button fx:id="stopRecBtn" mnemonicParsing="false" onAction="#stopRecognise" text="stop recognize" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+    
+</VBox>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Examsys.jnlp">
+  <information>
+    <title>Examsys</title>
+    <vendor>Moses</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path="C:\opencv\build\java\x86" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Examsys.jar" size="1488221" download="eager" />
+    <jar href="lib\artoolkitplus-android-arm.jar" size="318842" download="eager" />
+    <jar href="lib\artoolkitplus-android-x86.jar" size="404228" download="eager" />
+    <jar href="lib\artoolkitplus-linux-armhf.jar" size="143571" download="eager" />
+    <jar href="lib\artoolkitplus-linux-ppc64le.jar" size="193286" download="eager" />
+    <jar href="lib\artoolkitplus-linux-x86.jar" size="159061" download="eager" />
+    <jar href="lib\artoolkitplus-linux-x86_64.jar" size="173983" download="eager" />
+    <jar href="lib\artoolkitplus-macosx-x86_64.jar" size="169877" download="eager" />
+    <jar href="lib\artoolkitplus-platform.jar" size="2303" download="eager" />
+    <jar href="lib\artoolkitplus-windows-x86.jar" size="123683" download="eager" />
+    <jar href="lib\artoolkitplus-windows-x86_64.jar" size="155157" download="eager" />
+    <jar href="lib\artoolkitplus.jar" size="24094" download="eager" />
+    <jar href="lib\bridj-0.7.0.jar" size="935929" download="eager" />
+    <jar href="lib\ffmpeg-android-arm.jar" size="11622506" download="eager" />
+    <jar href="lib\ffmpeg-android-x86.jar" size="12841378" download="eager" />
+    <jar href="lib\ffmpeg-linux-armhf.jar" size="10565133" download="eager" />
+    <jar href="lib\ffmpeg-linux-ppc64le.jar" size="13599132" download="eager" />
+    <jar href="lib\ffmpeg-linux-x86.jar" size="11171157" download="eager" />
+    <jar href="lib\ffmpeg-linux-x86_64.jar" size="12007403" download="eager" />
+    <jar href="lib\ffmpeg-macosx-x86_64.jar" size="10981135" download="eager" />
+    <jar href="lib\ffmpeg-platform.jar" size="2229" download="eager" />
+    <jar href="lib\ffmpeg-windows-x86.jar" size="11994991" download="eager" />
+    <jar href="lib\ffmpeg-windows-x86_64.jar" size="12434231" download="eager" />
+    <jar href="lib\ffmpeg.jar" size="236905" download="eager" />
+    <jar href="lib\flandmark-android-arm.jar" size="37834" download="eager" />
+    <jar href="lib\flandmark-android-x86.jar" size="42685" download="eager" />
+    <jar href="lib\flandmark-linux-armhf.jar" size="35048" download="eager" />
+    <jar href="lib\flandmark-linux-ppc64le.jar" size="45152" download="eager" />
+    <jar href="lib\flandmark-linux-x86.jar" size="40845" download="eager" />
+    <jar href="lib\flandmark-linux-x86_64.jar" size="41716" download="eager" />
+    <jar href="lib\flandmark-macosx-x86_64.jar" size="40801" download="eager" />
+    <jar href="lib\flandmark-platform.jar" size="2265" download="eager" />
+    <jar href="lib\flandmark-windows-x86.jar" size="33119" download="eager" />
+    <jar href="lib\flandmark-windows-x86_64.jar" size="41105" download="eager" />
+    <jar href="lib\flandmark.jar" size="11774" download="eager" />
+    <jar href="lib\flycapture-linux-armhf.jar" size="186760" download="eager" />
+    <jar href="lib\flycapture-linux-x86.jar" size="221612" download="eager" />
+    <jar href="lib\flycapture-linux-x86_64.jar" size="241879" download="eager" />
+    <jar href="lib\flycapture-platform.jar" size="2225" download="eager" />
+    <jar href="lib\flycapture-windows-x86.jar" size="188967" download="eager" />
+    <jar href="lib\flycapture-windows-x86_64.jar" size="241392" download="eager" />
+    <jar href="lib\flycapture.jar" size="142827" download="eager" />
+    <jar href="lib\javacpp.jar" size="315590" download="eager" />
+    <jar href="lib\javacv-platform-1.3.2.jar" size="2351" download="eager" />
+    <jar href="lib\javacv-platform.jar" size="2351" download="eager" />
+    <jar href="lib\javacv.jar" size="387835" download="eager" />
+    <jar href="lib\libdc1394-linux-armhf.jar" size="128470" download="eager" />
+    <jar href="lib\libdc1394-linux-ppc64le.jar" size="216960" download="eager" />
+    <jar href="lib\libdc1394-linux-x86.jar" size="185611" download="eager" />
+    <jar href="lib\libdc1394-linux-x86_64.jar" size="197177" download="eager" />
+    <jar href="lib\libdc1394-macosx-x86_64.jar" size="202265" download="eager" />
+    <jar href="lib\libdc1394-platform.jar" size="2245" download="eager" />
+    <jar href="lib\libdc1394-windows-x86.jar" size="209191" download="eager" />
+    <jar href="lib\libdc1394-windows-x86_64.jar" size="188043" download="eager" />
+    <jar href="lib\libdc1394.jar" size="30724" download="eager" />
+    <jar href="lib\libfreenect-linux-armhf.jar" size="73857" download="eager" />
+    <jar href="lib\libfreenect-linux-ppc64le.jar" size="87300" download="eager" />
+    <jar href="lib\libfreenect-linux-x86.jar" size="111979" download="eager" />
+    <jar href="lib\libfreenect-linux-x86_64.jar" size="117056" download="eager" />
+    <jar href="lib\libfreenect-macosx-x86_64.jar" size="111420" download="eager" />
+    <jar href="lib\libfreenect-platform.jar" size="2255" download="eager" />
+    <jar href="lib\libfreenect-windows-x86.jar" size="167793" download="eager" />
+    <jar href="lib\libfreenect-windows-x86_64.jar" size="192509" download="eager" />
+    <jar href="lib\libfreenect.jar" size="21946" download="eager" />
+    <jar href="lib\libfreenect2-linux-x86.jar" size="418769" download="eager" />
+    <jar href="lib\libfreenect2-linux-x86_64.jar" size="399365" download="eager" />
+    <jar href="lib\libfreenect2-platform.jar" size="2167" download="eager" />
+    <jar href="lib\libfreenect2.jar" size="24026" download="eager" />
+    <jar href="lib\librealsense-linux-x86.jar" size="478587" download="eager" />
+    <jar href="lib\librealsense-linux-x86_64.jar" size="485775" download="eager" />
+    <jar href="lib\librealsense-platform.jar" size="2166" download="eager" />
+    <jar href="lib\librealsense.jar" size="45356" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.49.jar" size="1006904" download="eager" />
+    <jar href="lib\opencv-3.2.0-1.3-javadoc.jar.jar" size="5405552" download="eager" />
+    <jar href="lib\opencv-3.2.0-1.3.jar" size="748303" download="eager" />
+    <jar href="lib\opencv-440.jar" size="656348" download="eager" />
+    <jar href="lib\opencv-android-arm.jar" size="12093409" download="eager" />
+    <jar href="lib\opencv-android-x86.jar" size="15727873" download="eager" />
+    <jar href="lib\opencv-linux-armhf.jar" size="10649999" download="eager" />
+    <jar href="lib\opencv-linux-ppc64le.jar" size="12824720" download="eager" />
+    <jar href="lib\opencv-linux-x86.jar" size="10560203" download="eager" />
+    <jar href="lib\opencv-linux-x86_64.jar" size="10737947" download="eager" />
+    <jar href="lib\opencv-macosx-x86_64.jar" size="11176800" download="eager" />
+    <jar href="lib\opencv-platform.jar" size="2229" download="eager" />
+    <jar href="lib\opencv-windows-x86.jar" size="10870413" download="eager" />
+    <jar href="lib\opencv-windows-x86_64.jar" size="13031603" download="eager" />
+    <jar href="lib\opencv.jar" size="748303" download="eager" />
+    <jar href="lib\slf4j-api-1.7.2.jar" size="26083" download="eager" />
+    <jar href="lib\tesseract-platform-3.04.01-1.3.jar" size="2272" download="eager" />
+    <jar href="lib\videoinput-platform.jar" size="2159" download="eager" />
+    <jar href="lib\videoinput-windows-x86.jar" size="38268" download="eager" />
+    <jar href="lib\videoinput-windows-x86_64.jar" size="46714" download="eager" />
+    <jar href="lib\videoinput.jar" size="15518" download="eager" />
+    <jar href="lib\webcam-capture-0.3.12.jar" size="428314" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Examsys" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="examsys.Main"  name="Examsys" />
+  <update check="always"/>
+</jnlp>

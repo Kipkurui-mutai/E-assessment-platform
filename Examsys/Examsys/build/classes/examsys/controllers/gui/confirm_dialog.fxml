@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="296.0" prefWidth="409.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsys.controllers.Confirm_dialogController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="message_lbl" alignment="CENTER" contentDisplay="CENTER" prefHeight="68.0" prefWidth="329.0" wrapText="true" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Button fx:id="yes_btn" mnemonicParsing="false" onAction="#answerYes" text="yes" />
+            <Button fx:id="no_btn" mnemonicParsing="false" onAction="#answerNo" text="no" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

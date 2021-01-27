@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="775.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsys.controllers.Answer_examController">
+   <children>
+      <Label fx:id="exam_name" prefHeight="30.0" prefWidth="441.0" textAlignment="CENTER" textFill="#114ce1" wrapText="true" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="quest1_val" prefHeight="52.0" prefWidth="669.0" wrapText="true" VBox.vgrow="ALWAYS" />
+      <TextArea fx:id="quest1_ans" prefHeight="72.0" prefWidth="775.0" promptText="Qestion 1 Answer" wrapText="true" VBox.vgrow="ALWAYS" />
+      <Label fx:id="quest2_val" prefHeight="43.0" prefWidth="717.0" wrapText="true" VBox.vgrow="ALWAYS" />
+      <TextArea fx:id="quest2_ans" prefHeight="90.0" prefWidth="775.0" promptText="Question 2 Answer" wrapText="true" VBox.vgrow="ALWAYS" />
+      <Label fx:id="quest3_val" prefHeight="42.0" prefWidth="704.0" wrapText="true" VBox.vgrow="ALWAYS" />
+      <TextArea fx:id="quest3_ans" prefHeight="71.0" prefWidth="775.0" promptText="Qestion 1 Answer" wrapText="true" VBox.vgrow="ALWAYS" />
+      <Button fx:id="submit" mnemonicParsing="false" onAction="#submitAnswer" text="Submit Answers" />
+   </children>
+   <padding>
+      <Insets left="30.0" right="30.0" />
+   </padding>
+</VBox>

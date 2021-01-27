@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.embed.swing.SwingNode?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsys.controllers.Admin_exam_paneController">
+   <children>
+      <SplitPane dividerPositions="0.4142194744976816, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="752.0">
+        <items>
+          <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="189.0">
+               <children>
+                  <TableView fx:id="exam_table" layoutX="7.0" layoutY="10.0" prefHeight="308.0" prefWidth="262.0">
+                    <columns>
+                      <TableColumn fx:id="name_fld" prefWidth="166.0" text="name" />
+                        <TableColumn fx:id="status_fld" prefWidth="90.0" text="Status" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="262.0">
+               <children>
+                  <TableView fx:id="student_list" layoutX="2.0" layoutY="7.0" prefHeight="314.0" prefWidth="262.0">
+                    <columns>
+                      <TableColumn fx:id="firstname" prefWidth="75.0" text="firstname" />
+                      <TableColumn fx:id="lastname" prefWidth="75.0" text="lastname" />
+                        <TableColumn fx:id="email" prefWidth="124.0" text="email" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="180.0">
+               <children>
+                  <VBox fx:id="media_view" layoutX="9.0" layoutY="3.0" prefHeight="314.0" prefWidth="178.0" spacing="20.0">
+                     <children>
+                        <ImageView fx:id="profile" fitHeight="97.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <SwingNode fx:id="swingNode" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <HBox prefHeight="182.0" prefWidth="650.0" spacing="20.0">
+         <children>
+            <Button fx:id="startExam" mnemonicParsing="false" onAction="#startExam" prefHeight="25.0" prefWidth="116.0" text="Start Exam">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+            <Button fx:id="student_visual" mnemonicParsing="false" onAction="#captureStudentVideo" prefHeight="25.0" prefWidth="130.0" text="Student Visual">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+               <Button fx:id="students_answers" mnemonicParsing="false" onAction="#viewAnswers" prefHeight="25.0" prefWidth="130.0" text="Student's Answers">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+            <Button fx:id="new_exam" mnemonicParsing="false" onAction="#openNewExamDialog" prefHeight="25.0" prefWidth="120.0" text="New Exam" />
+            
+         </children>
+         <padding>
+            <Insets left="20.0" top="20.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="350.0" spacing="16.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsys.controllers.Login_formController">
+   <children>
+      <Label text="Student Sign In Form" />
+      <TextField fx:id="email_fld" prefHeight="25.0" prefWidth="250.0" promptText="email" />
+      <PasswordField fx:id="password_fld" promptText="password" />
+      <Button fx:id="signInBtn" mnemonicParsing="false" onAction="#performSignIn" prefHeight="25.0" prefWidth="133.0" text="Sign in" />
+   </children>
+   <padding>
+      <Insets left="45.0" right="45.0" />
+   </padding>
+</VBox>

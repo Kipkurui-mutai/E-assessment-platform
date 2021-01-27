@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="237.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examsys.controllers.New_student_dialogController">
+    
+   <children>
+      <HBox prefHeight="67.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="firstname_tfld" promptText="First Name" />
+            <TextField fx:id="lastname_tfld" promptText="Last Name" />
+            <TextField fx:id="email_tfld" promptText="Email" />
+            <PasswordField fx:id="password_tfld" promptText="password" />
+            
+         </children>
+      </HBox>
+      <HBox prefHeight="48.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="browse" mnemonicParsing="false" onAction="#browsePhoto" text="browse profile" />
+            <Button fx:id="create_student" mnemonicParsing="false" onAction="#createStudent" text="create" />
+         </children>
+      </HBox>
+      <ImageView fx:id="profile" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+    
+</VBox>
